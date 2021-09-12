@@ -12,20 +12,6 @@ body div h1{
      text-align: center;
     }
 
-.mainInfo img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
-.mainInfo div h2{
-    color: #83182a98;
-}
-
-.mainInfo{
-    text-align: center;
-
-}
 
 .personalInfo div h3{
     color: #d41f1f98;
@@ -38,7 +24,6 @@ body div h1{
     font-family: 'Zen Loop', cursive;
     font-size: 25px;
     margin: 0px 25% 20px;
-
 }
 .list ul{
     padding: 0px;
@@ -54,4 +39,52 @@ div iframe{
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+}
+.contenedor{
+	background-color: blue;
+	display: flex;
+    float: right;
+  	flex-direction: column;
+}
+.contenedor .item{
+    justify-content: flex-end;
+}
+
+.item{
+	background-color: #ccc;
+	width: 100px;
+	height: 100px;
+	margin: 10px;
+	font-size: 30px;
+}
+
+.contenedor2{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+
+}
+.item2{
+	background-color: #ccc;
+	width: 100px;
+	height: 100px;
+	margin: 10px;
+	font-size: 30px;
+}
+
+.contenedor3{
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.item3{
+	background-color: #ccc;
+	width: 100px;
+	height: 100px;
+	margin: 10px;
+	font-size: 30px;
 }
